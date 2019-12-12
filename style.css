@@ -1,17 +1,17 @@
+/*generelle indstillinger*/
+
 * {
     box-sizing: border-box;
-
 }
 
 body {
     margin: 0 auto;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-
-
-
-
 }
 
+img {
+    width: 100%;
+}
 
 section {
     max-width: 1200px;
@@ -19,9 +19,12 @@ section {
     padding: 1rem;
 }
 
+/*generelle indstillinger slut*/
+
+/********menu*******/
+
 
 header nav {
-
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -33,26 +36,43 @@ header nav {
     text-decoration: none;
     background-color: transparent;
 
-
-
-
 }
-
-
-
 
 header nav a {
     margin: 0;
     padding: 3rem;
     text-decoration: none;
+}
 
+header nav a:visited {
+    color: black;
+}
 
+header nav a:hover {
+    color: saddlebrown;
 }
 
 #logo img {
     width: 15%;
 }
 
+/********menu slut *******/
+
+/********splash *******/
+
+#splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(billeder/splash_bbl.png);
+    background-size: cover;
+    background-position: 67% 10%;
+    max-width: none;
+}
+
+/********splash slut *******/
+
+
+/********footer*******/
 
 .aabningstider p {
 
@@ -66,8 +86,6 @@ header nav a {
     justify-content: space-between;
     padding: 3rem;
     margin: 1rem;
-
-
 }
 
 .aabningstider kontakt {
@@ -76,8 +94,6 @@ header nav a {
     flex-basis: 300px;
     flex-wrap: wrap;
     padding: 1.6rem;
-
-
 }
 
 #kontakt sectionwrapper {
@@ -86,8 +102,10 @@ header nav a {
     justify-content: space-between;
     padding: 3rem;
     margin: 1rem;
-
 }
+
+/********footer slut*******/
+
 
 /*
 #footer {
