@@ -71,6 +71,18 @@ header nav a:hover {
 
 /********splash slut *******/
 
+/********velkommen *******/
+
+#velkommen .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#velkommen .col {
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
 
 /********footer*******/
 
